@@ -11,7 +11,7 @@ Notifications.setNotificationHandler({
     shouldShowList: true,
     shouldPlaySound: true,
     shouldSetBadge: false,
-  }),
+  }), 
 });
 
 export default function App() {
