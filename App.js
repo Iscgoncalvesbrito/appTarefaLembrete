@@ -266,8 +266,105 @@ async function addTask() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#171d31",
+  },
+
+  title: {
+    color: "#FFF",
+    fontSize: 28,
+    fontWeight: "bold",
+    textAlign: "center",
+    marginVertical: 20,
+  },
+
+  card: {
+    backgroundColor: "#FFF",
+    marginHorizontal: 15,
+    marginVertical: 6,
+    borderRadius: 10,
+    padding: 15,
+    flexDirection: "row",
+    alignItems: "center",
+  },
+
+  task: {
+    fontSize: 17,
+    fontWeight: "bold",
+  },
+
+  done: {
+    textDecorationLine: "line-through",
+    color: "#999",
+  },
+
+  time: {
+    color: "#666",
+    marginTop: 5,
+  },
+
+  fab: {
+    position: "absolute",
+    right: 25,
+    bottom: 25,
+    width: 65,
+    height: 65,
+    borderRadius: 33,
+    backgroundColor: "#0094ff",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  modal: {
+    flex: 1,
+    backgroundColor: "#171d31",
+    padding: 20,
+    justifyContent: "center",
+  },
+
+  modalTitle: {
+    color: "#FFF",
+    fontSize: 26,
+    textAlign: "center",
+    marginBottom: 30,
+  },
+
+  input: {
+    backgroundColor: "#FFF",
+    borderRadius: 8,
+    padding: 15,
+    marginBottom: 15,
+    fontSize: 16,
+  },
+
+  save: {
+    backgroundColor: "#0094ff",
+    padding: 15,
+    borderRadius: 8,
+    alignItems: "center",
+    marginBottom: 10
+  },
+
+  saveText: {
+    color: "#FFF",
+    fontSize: 18,
+    fontWeight: "bold",
+    
+  },
+
+  toast: {
+    position: "absolute",
+    left: 20,
+    right: 20,
+    backgroundColor: "#16A34A",
+    padding: 15,
+    borderRadius: 10,
+    zIndex: 999,
+    elevation: 10,
+  },
+
+  toastText: {
+    color: "#FFF",
+    textAlign: "center",
+    fontWeight: "bold",
   },
 });
