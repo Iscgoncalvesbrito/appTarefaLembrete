@@ -1,7 +1,7 @@
 import React,{useState, useEffect, useRef} from 'react'
 import { StyleSheet, Text, View, SafeAreaView, FlatList, Modal, TextInput, Animated, Platform } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import * as Notificarions from "expo-notifications";
+import * as Notifications from "expo-notifications";
 import {Ionicons} from '@expo/vector-icons';
 
 // Configuração das notificações
