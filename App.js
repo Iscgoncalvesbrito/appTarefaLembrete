@@ -19,7 +19,7 @@ const [tasks, setTasks] = useState([]);
 const [modal, setModal] = useState(false);
 
 const [title, setTitle] = useState("");
-const {time, setTime} = useState("");
+const [time, setTime] = useState("");
 
 const [toast, setToast] = useState("");
 const top = useRef(new Animated.Value(-50)).current;
